@@ -20,7 +20,10 @@ public class DoD {
 
         World world = new World();
         Player player = new Player(world.locations.get(0));
-        
+        boolean sword;
+        boolean lamp;
+        sword = false;
+        lamp = false;
 
         String cmd="";
         while(!cmd.equalsIgnoreCase("quit")){
@@ -30,6 +33,18 @@ public class DoD {
                 cmd = stdin.readLine();
             }catch(java.io.IOException e){
                 System.out.println(e);
+            }
+
+            if (player.locations.desc = location tr){
+                sword = true;
+            }
+
+             if (player.locations.desc = location hc){
+                lamp = true;
+            }
+
+            if (player.locations.desc = location dc && lamp = true && Sword = true){
+                System.out.println("You have slayed the dragon! Congratulations!")
             }
 
             if(cmd.equalsIgnoreCase("n")){
