@@ -44,25 +44,14 @@ public class DoDTest {
     public void testMain() {
  World world = new World();
         Player player = new Player(world.locations.get(0));
+        //boolean sword;
+        //sword = false;
 
-        String cmd="n";
+        String cmd="ndfvfdbv";
         while(!cmd.equalsIgnoreCase("quit")){
             System.out.println("You are "+player.location.desc);
             System.out.println("What next?");
-
-              cmd = "n";//hard-code value of command, as test needs to run automatically.
-
-            if(cmd.equalsIgnoreCase("n")){
-                if(player.location.north!=null){
-                    player.location = player.location.north;
-                }else{
-                    System.out.println("There is no exit to the north.");
-                }
-            }
-            System.out.println("You are "+player.location.desc);
-            System.out.println("What next?");
-
-            cmd = "n";
+              cmd = "n";
 
             if(cmd.equalsIgnoreCase("n")){
                 if(player.location.north!=null){
@@ -73,8 +62,7 @@ public class DoDTest {
             }
             System.out.println("You are "+player.location.desc);
             System.out.println("What next?");
-            
-             cmd = "e";
+              cmd = "dffe";
             if(cmd.equalsIgnoreCase("e")){
                 if(player.location.east!=null){
                     player.location = player.location.east;
@@ -82,10 +70,1056 @@ public class DoDTest {
                     System.out.println("There is no exit to the east.");
                 }
             }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
 
+        while(!cmd.equalsIgnoreCase("quit")){
             System.out.println("You are "+player.location.desc);
             System.out.println("What next?");
-            
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+              while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+              while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+              while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+              while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+
+        while(!cmd.equalsIgnoreCase("quit")){
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "n";
+
+            if(cmd.equalsIgnoreCase("n")){
+                if(player.location.north!=null){
+                    player.location = player.location.north;
+                }else{
+                    System.out.println("There is no exit to the north.");
+                }
+            }
+            System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dffe";
+            if(cmd.equalsIgnoreCase("e")){
+                if(player.location.east!=null){
+                    player.location = player.location.east;
+                }else{
+                    System.out.println("There is no exit to the east.");
+                }
+            }
+               System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "fsdfdss";
+            if(cmd.equalsIgnoreCase("s")){
+                if(player.location.south!=null){
+                    player.location = player.location.south;
+                }else{
+                    System.out.println("There is no exit to the south.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
+              cmd = "dsfsdfw";
+            if(cmd.equalsIgnoreCase("w")){
+                if(player.location.west!=null){
+                    player.location = player.location.west;
+                }else{
+                    System.out.println("There is no exit to the west.");
+                }
+            }
+              System.out.println("You are "+player.location.desc);
+            System.out.println("What next?");
               cmd = "quit";
             if(cmd.equalsIgnoreCase("quit")){
                 System.out.println("You quit.");
@@ -93,5 +1127,35 @@ public class DoDTest {
         }
         System.out.println("Goodbye!");
 
+
+
+
+
+
+}
+                        }
+            }
     }
+}
+
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                            }
+                                                                                                                                                                                    }
+                                                                                                                                                }
+                                                                                                                }
+                                                                                    }
+                                                            }
+                                        }
+                        }
+            }
+    }
+}
 }
